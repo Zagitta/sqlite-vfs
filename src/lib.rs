@@ -6,7 +6,7 @@ mod io;
 mod vfs;
 
 use ffi::sqlite3_vfs;
-use sqlite3_sys as ffi;
+use libsqlite3_sys as ffi;
 use std::borrow::Cow;
 use std::collections::HashMap;
 use std::ffi::{c_void, CStr, CString};
